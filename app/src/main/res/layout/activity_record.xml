@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecordActivity"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/records_tv"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textStyle="italic"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/time_record"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/steps_record" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/record1"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_besttime1"
+            android:background="@drawable/tv_backgr"
+            android:layout_marginEnd="3dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/record1"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:padding="15dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tv_steps1"
+                android:background="@drawable/tv_backgr"
+                android:layout_marginEnd="3dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/record1"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:padding="15dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tv_besttime2"
+                android:background="@drawable/tv_backgr"
+                android:layout_marginEnd="3dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/record1"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:padding="15dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tv_steps2"
+                android:background="@drawable/tv_backgr"
+                android:layout_marginEnd="3dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
